@@ -1,7 +1,5 @@
-package ru.geekbrains.lesson1;
-
 public class HoumeWork1 {
-    public static void main (String args[]) {       // Задание №1
+    public static void main (String args[]) {        // Задание №1
 
         // Задание №2
         byte a = 127;
@@ -72,8 +70,6 @@ public class HoumeWork1 {
         if (b == 0) {
             if (d == 0 || c != 0) {
                 System.out.println("Год " + a + " високосный.");
-            }  else {
-                System.out.println("Год " + a + " не високосный.");
             }
         } else {
             System.out.println("Год " + a + " не високосный.");
