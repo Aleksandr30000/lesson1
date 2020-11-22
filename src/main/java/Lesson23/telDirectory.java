@@ -19,7 +19,6 @@ public class telDirectory {
         String name = "Иванов";    //Сюда пишем фамилию человека, телефон которого надо найти
         ArrayList<String> tel = new ArrayList<>();
         td.forEach((k, v) -> {
-            if (v == name) {
                 tel.add(k);
             }
         });
